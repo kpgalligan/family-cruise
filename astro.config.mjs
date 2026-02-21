@@ -10,6 +10,7 @@ import { SITE } from "./src/config/site.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.url,
+  base: "/family-cruise",
   integrations: [
     react(),
     icon(),
